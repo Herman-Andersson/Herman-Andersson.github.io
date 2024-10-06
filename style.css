@@ -1,0 +1,48 @@
+/* Style for the .container class */
+.container {
+    width: 80%;           /* Container takes up 80% of the page width */
+    margin: 0 auto;        /* Centers the container horizontally */
+    padding: 20px;         /* Adds 20px of padding inside the container */
+    background-color: #f4f4f4; /* Light grey background color */
+    border-radius: 10px;   /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the container */
+}
+
+/* Heading styles */
+h1 {
+    color: #d22828;           /* Dark grey color for the main heading */
+    font-family: 'Arial', sans-serif;  /* Font style */
+    font-size: 36px;       /* Size of the main heading */
+    text-align: center;    /* Center align the heading */
+    margin-bottom: 20px;   /* Adds some space below the heading */
+}
+
+h2 {
+    color: #555;           /* Lighter grey for secondary headings */
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;   /* Adds some space below the heading */
+}
+
+h3 {
+    color: #777;           /* Even lighter grey for tertiary headings */
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;   /* Adds some space below the heading */
+}
+
+/* Style for the link */
+a {
+    text-decoration: none;   /* Removes the default underline from the link */
+    color: #007BFF;          /* A blue color for the link */
+    display: inline-block;   /* Makes the entire heading clickable */
+    padding: 10px 15px;      /* Adds padding around the link */
+    border: 1px solid #007BFF; /* Adds a border around the link */
+    border-radius: 5px;      /* Rounds the corners of the link */
+    transition: background-color 0.3s ease; /* Adds a smooth hover effect */
+}
+
+a:hover {
+    background-color: #007BFF; /* Changes background color on hover */
+    color: #fff;               /* Changes the text color to white on hover */
+}
